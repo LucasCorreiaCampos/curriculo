@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriculo</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+        <nav class="menu">
+            <ul>
+                <li><a href="#sobre_mim">SOBRE MIM</a></li>
+                <li><a href="#habilidades">HABILIDADES</a></li>
+                <li><a href="#formacao">FORMAÇÃO</a></li>
+                <li><a href="#outras_habilidades">OUTRAS HABILIDADES</a></li>
+                <li><a href="#contato">CONTATO</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div id="sobre_mim">
+        <img src="lucas.jpg" id="lucas" alt="">
+        <h1>LUCAS CORREIA CAMPOS</h1>
+        <h2>Desenvolvedor</h2>
+    </div>
+    <div id="habilidades">
+        <h1>HABILIDADES</h1>
+        <h2>Conhecimento medio em php</h2>
+    </div>
+    <div id="formação">
+        <h1>FORMAÇÃO</h1>
+        <h2>Curso Técnico de Informatica para Internet</h2>
+    </div>
+    <div id="outras_habilidades">
+        <h1>OUTRAS HABILIDADES</h1>
+        <h2>Artista Circense</h2>
+    </div>
+    <div id="contato">
+        <h1>CONTATO</h1>
+        <h2>lucascorreiacampos@gmail.com</h2><br>
+        <hr>
+        <section>
+            <form method="GET" action="#" >
+                <legend>Entre em contato</legend><br>
+                <input class="nome" type="text" name="nome" required placeholder="Digite o seu nome/empresa..."><br>
+                <input class="contrata" type="radio" name="contrata" value="pessoa" id="pes">
+                <label for="pessoa">Pessoa</label>
+                <input class="contrata" type="radio" name="contrata" value="empresa" id="emp">
+                <label for="empresa">Empresa</label><br><br>
+                <textarea name="descricao" required placeholder="Digite a sua mensagen..." cols="50" rows="10"></textarea><br>
+                <label for="servico">Selecione o tipo do assunto</label><br>
+                <select name="servico" required class="servico" >
+                    <option value=""></option>
+                    <option value="freela">Serviços Freelancer</option>
+                    <option value="clt">Contratação CLT</option>
+                    <option value="outro">Outros...</option>
+                </select>   <br><br>
+
+                <input class="botao" type="submit"><br><br><br>
+            </form>
+        </section>
+    </div>
+</body>
+</html>
+
+<script>
+    //tentativa para se conectar um pouco mais com as pessoas que iram entrar do web site 
+    window.alert('Sejá bem vindo ao meu curriculo!!! Este Web Site é destinado a apresentar um pouco do meu trabalho e um pouco de quem eu sou, então entre e me conheça.')
+</script>
